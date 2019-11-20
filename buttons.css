@@ -1,0 +1,150 @@
+/* Blue button in Top Header for medium and small devices */
+.button-blue{
+	height: 2.5rem;
+	width: 7.3rem;
+	border-radius: 1.25rem;
+	background-color: #4043FF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	text-align: center;
+	position: absolute;
+	right: 0.3125rem;
+}
+
+.button-blue-text{
+	height: 1.06rem;
+	width: 5rem;
+	color: #FFF;
+	font-weight: 600;
+	letter-spacing: -0.016rem;
+	line-height: 1.06rem;
+	text-decoration: none;
+	font-size: 0.87rem;
+}
+
+/* Blue button in Top Header for large and extra large devices */
+@media screen and (min-width: 992px) {
+.button-blue{
+	height: 2.5rem;
+	width: 7.3rem;
+	border-radius: 1.25rem;
+	background-color: #4043FF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	text-align: center;
+	position: static;
+}
+
+.button-blue-text{
+font-size: 0.8rem;
+}
+}
+
+/* Buttons in Hero Header */
+.buttons {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* Hero Header for screens up to 576px) */
+@media (max-width: 576px) {
+	.buttons {
+	flex-direction: column;	
+}
+	#green {
+	margin-bottom: 1rem;
+	}
+}
+
+/* Green button */
+.button-green {
+	height: 3.75rem;
+	width: 10.625rem;
+	border-radius: 1.875rem;
+    background-color: #3BE4CE;
+	cursor: pointer;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.button-green-text {
+	color: #FFF;
+	font-weight: 600;
+	letter-spacing: -0.25px;
+	line-height: 1.06rem;
+	text-align: center;
+	text-decoration: none;
+	width: 5rem;
+}
+
+/* Transparent button */
+.button-transp{
+	height: 3.75rem;
+	width: 10.625rem;
+	border-radius: 1.875rem;
+	border: 2px solid #FFF;
+	box-sizing: border-box;
+	cursor: pointer;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.button-transp-text {
+	color: #FFF;
+	font-weight: 600;
+	letter-spacing: -0.25px;
+	line-height: 1.06rem;
+	text-align: center;
+	text-decoration: none;
+	width: 5rem;
+}
+
+#cta {
+	margin: 1rem;
+}
+
+#button-transp-pricing {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+@media (max-width: 576px) {
+	#button-transp-pricing{
+		margin-bottom: 1rem;
+	}
+}
+
+
+/* Button in cards section */
+.card-button {
+	height: 2.5rem;
+	width: 7.4rem;
+	border-radius: 0.25rem;
+	background-color: #3BE4CE;
+	margin-bottom: 5rem;
+	padding: 1rem;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.card-button-text {
+	color: #090E18;
+	font-weight: 600;
+	letter-spacing: -0.25px;
+	line-height: 1.06rem;
+	text-decoration: none;
+}
